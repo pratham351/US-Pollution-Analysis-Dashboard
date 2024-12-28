@@ -1,0 +1,33 @@
+create table USPollution
+(
+sr_no INTIGER10 PRIMARY KEY,
+state_code int10,
+country_code int10,
+site_num int10,
+address varchar(50),
+state varchar(50),
+country varchar(50),
+city varchar(50),
+date_local int10,
+no2_units varchar(50),
+no2_mean int10,
+no2_1st_max_value int10,
+no2_1st_max_hour int10,
+no2_aqi int10,
+o3_units varchar(50),
+o3_mean int10,
+o3_1st_max_value int10,
+o3_1st_max_hour int10,
+o3_aqi int10,
+so2_units varchar(50),
+so2_mean int10,
+so2_1st_max_value int10,
+so2_1st_max_hour int10,
+so2_aqi	int10,
+co_units varchar(50),
+co_mean int10,
+co_1st_max_value int10,
+co_1st_max_hour int10,
+co_aqi int10
+
+)
